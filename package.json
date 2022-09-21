@@ -1,0 +1,48 @@
+{
+  "name": "react-native-new-radial-gradient",
+  "version": "1.0.0",
+  "description": "New Radial gradient library for react native new Arch",
+  "react-native": "src/index",
+  "source": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "src",
+    "android/",
+    "ios/",
+    "rtn-centered-text.podspec",
+    "!android/build",
+    "!ios/build"
+  ],
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "new-radial-gradient",
+    "radial",
+    "gradient",
+    "react native new gradient",
+    "react native new radial gradient"
+  ],
+  "author": "<Rishabh Shakya> <rishabhshakya@yahoo.com> (https://github.com/rishabhshakya)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishabhshakya/react-native-new-radial-gradient/issues"
+  },
+  "repository": "https://github.com/rishabhshakya/react-native-new-radial-gradient.git",
+  "homepage": "https://github.com/rishabhshakya/react-native-new-radial-gradient#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/runtime": "^7.18.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RNRadialGradientViewSpecs",
+    "type": "components",
+    "jsSrcsDir": "src"
+  }
+}
